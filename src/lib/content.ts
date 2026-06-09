@@ -39,8 +39,8 @@ export const projects: Project[] = [
     image: "/portfolio/anchor.png",
     status: "live",
     type: {
-      en: "Apartment development, Honduras",
-      sr: "Stambeni kompleks, Honduras",
+      en: "Apartment development, Montenegro",
+      sr: "Stambeni kompleks, Crna Gora",
     },
   },
   {
