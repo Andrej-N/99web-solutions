@@ -1,0 +1,11 @@
+import { chromium } from "playwright";
+const browser = await chromium.launch();
+const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
+await page.goto("http://localhost:3000", { waitUntil: "networkidle" });
+await page.getByRole("button", { name: "sr", exact: true }).click();
+await page.waitForTimeout(800);
+await page.evaluate(() => document.querySelector("#services")?.scrollIntoView());
+await page.waitForTimeout(1000);
+await page.screenshot({ path: "scripts/shots/sr-services.png" });
+await browser.close();
+console.log("done");
