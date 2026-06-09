@@ -86,7 +86,7 @@ export const contact = {
 
 type Dict = {
   nav: { services: string; work: string; process: string; contact: string; cta: string };
-  hero: { eyebrow: string; heading: string; statement: string; hint: string };
+  hero: { eyebrow: string; heading: string; headingBold: string; statement: string; hint: string };
   services: {
     kicker: string;
     title: string;
@@ -130,7 +130,8 @@ export const content: Record<Lang, Dict> = {
     },
     hero: {
       eyebrow: "Website and web app development",
-      heading: "99web Solutions",
+      heading: "Cherry",
+      headingBold: "Stone",
       statement: "Websites and web applications, engineered from first idea to launch.",
       hint: "Scroll",
     },
@@ -221,7 +222,8 @@ export const content: Record<Lang, Dict> = {
     },
     hero: {
       eyebrow: "Izrada veb sajtova i veb aplikacija",
-      heading: "99web Solutions",
+      heading: "Cherry",
+      headingBold: "Stone",
       statement: "Veb sajtovi i veb aplikacije, projektovani od prve ideje do lansiranja.",
       hint: "Skroluj",
     },

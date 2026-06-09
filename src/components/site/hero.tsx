@@ -11,6 +11,7 @@ export function Hero() {
       blur
       eyebrow={t.hero.eyebrow}
       heading={t.hero.heading}
+      headingBold={t.hero.headingBold}
       statement={t.hero.statement}
       hint={t.hero.hint}
     />

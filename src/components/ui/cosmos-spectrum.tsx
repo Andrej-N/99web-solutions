@@ -20,6 +20,8 @@ interface CosmicSpectrumProps {
   eyebrow?: string;
   /** Big animated headline (split per character) */
   heading?: string;
+  /** Bold second half of the headline wordmark, animated together with heading */
+  headingBold?: string;
   /** Statement revealed as the spectrum rises */
   statement?: string;
   /** Scroll hint text at the bottom of the first screen */
@@ -31,6 +33,7 @@ export function CosmicSpectrum({
   blur = false,
   eyebrow,
   heading = "Cosmos Spectrum",
+  headingBold,
   statement = "Where Design Becomes Communication",
   hint = "Scroll to explore",
 }: CosmicSpectrumProps) {
@@ -180,7 +183,14 @@ export function CosmicSpectrum({
           </p>
         )}
         <h1 className="hero-title text-center text-6xl font-semibold tracking-tighter text-foreground sm:text-7xl md:text-8xl">
-          {splitText(heading)}
+          {headingBold ? (
+            <>
+              <span className="font-light">{splitText(heading)}</span>
+              <span className="font-bold">{splitText(headingBold)}</span>
+            </>
+          ) : (
+            splitText(heading)
+          )}
         </h1>
 
         {/* Scroll hint scrolls away with the hero */}

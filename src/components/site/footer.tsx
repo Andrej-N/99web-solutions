@@ -22,13 +22,9 @@ export function Footer() {
       <div className="mx-auto max-w-[1400px] px-5 py-14 sm:px-8">
         <div className="flex flex-col gap-10 md:flex-row md:items-start md:justify-between">
           <div className="max-w-xs">
-            <div className="flex items-center gap-2 text-[15px] font-semibold tracking-tight">
-              <span className="nums grid h-6 w-6 place-items-center rounded-[6px] bg-accent text-[10px] font-bold text-white">
-                99
-              </span>
-              <span>
-                web<span className="text-white/55"> Solutions</span>
-              </span>
+            <div className="flex items-center text-[17px] tracking-tight">
+              <span className="font-light">Cherry</span>
+              <span className="font-bold">Stone</span>
             </div>
             <p className="mt-4 text-sm leading-relaxed text-white/55">{t.footer.tagline}</p>
           </div>
@@ -56,7 +52,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col gap-2 border-t border-white/10 pt-6 text-xs text-white/40 sm:flex-row sm:items-center sm:justify-between">
-          <span className="nums">© {year} 99web Solutions. {t.footer.rights}</span>
+          <span className="nums">© {year} CherryStone. {t.footer.rights}</span>
           <span>Beograd, RS</span>
         </div>
       </div>

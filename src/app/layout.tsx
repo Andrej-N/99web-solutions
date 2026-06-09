@@ -22,20 +22,20 @@ const newsreader = Newsreader({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://99web.solutions"),
-  title: "99web Solutions | Website and web app development",
+  metadataBase: new URL("https://99web-lake.vercel.app"),
+  title: "CherryStone | Website and web app development",
   description:
-    "99web Solutions builds custom websites and web applications, from fast marketing sites to fullstack platforms with admin panels.",
+    "CherryStone builds custom websites and web applications, from fast marketing sites to fullstack platforms with admin panels.",
   keywords: [
     "web development",
     "web app development",
     "izrada sajtova",
     "veb aplikacije",
     "fullstack",
-    "99web Solutions",
+    "CherryStone",
   ],
   openGraph: {
-    title: "99web Solutions",
+    title: "CherryStone",
     description:
       "Websites and web applications, engineered from first idea to launch.",
     type: "website",

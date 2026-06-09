@@ -34,13 +34,9 @@ export function Nav() {
       )}
     >
       <nav className="mx-auto flex h-16 max-w-[1400px] items-center justify-between px-5 sm:px-8">
-        <a href="#top" className="group flex items-center gap-2 text-[15px] font-semibold tracking-tight">
-          <span className="grid h-6 w-6 place-items-center rounded-[6px] bg-foreground text-[10px] font-bold text-background nums transition-colors group-hover:bg-accent">
-            99
-          </span>
-          <span className="text-foreground">
-            web<span className="text-muted-foreground"> Solutions</span>
-          </span>
+        <a href="#top" className="group flex items-center text-[17px] tracking-tight text-foreground">
+          <span className="font-light">Cherry</span>
+          <span className="font-bold transition-colors group-hover:text-accent">Stone</span>
         </a>
 
         <div className="hidden items-center gap-8 md:flex">
