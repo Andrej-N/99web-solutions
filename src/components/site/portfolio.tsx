@@ -10,10 +10,12 @@ import { cn } from "@/lib/utils";
 const spans: Record<string, string> = {
   urbanova: "lg:col-span-7",
   enzahome: "lg:col-span-5",
+  swastha: "lg:col-span-6",
+  mariclaw: "lg:col-span-6",
+  kuhinje3d: "lg:col-span-7",
+  gogadizajn: "lg:col-span-5",
   anchor: "lg:col-span-5",
   luxbudva: "lg:col-span-7",
-  mariclaw: "lg:col-span-6",
-  swastha: "lg:col-span-6",
 };
 
 export function Portfolio() {

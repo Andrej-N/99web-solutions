@@ -26,10 +26,54 @@ export const projects: Project[] = [
     name: "Enza Home",
     url: "https://enza-home.rs/",
     image: "/portfolio/enzahome.png",
-    status: "building",
+    status: "live",
     type: {
       en: "Furniture brand, fullstack with admin",
       sr: "Brend nameštaja, fullstack sa adminom",
+    },
+  },
+  {
+    slug: "swastha",
+    name: "Swastha",
+    url: "https://www.swastha.rs/",
+    image: "/portfolio/swastha.png",
+    status: "live",
+    type: {
+      en: "Healthy catering and wellness brand",
+      sr: "Brend zdravog keteringa i wellnessa",
+    },
+  },
+  {
+    slug: "mariclaw",
+    name: "Maric Law",
+    url: "https://www.mariclaw.rs/sr-Latn/",
+    image: "/portfolio/mariclaw.png",
+    status: "live",
+    type: {
+      en: "Law firm website",
+      sr: "Sajt advokatske kancelarije",
+    },
+  },
+  {
+    slug: "kuhinje3d",
+    name: "3dKuhinje",
+    url: "https://kuhinje3d.com/",
+    image: "/portfolio/kuhinje3d.png",
+    status: "live",
+    type: {
+      en: "3D kitchen visualization studio",
+      sr: "Studio za 3D vizualizaciju kuhinja",
+    },
+  },
+  {
+    slug: "gogadizajn",
+    name: "Goga Dizajn",
+    url: "https://dizajnerenterijera.com/",
+    image: "/portfolio/gogadizajn.png",
+    status: "live",
+    type: {
+      en: "Online interior design studio",
+      sr: "Online studio za dizajn enterijera",
     },
   },
   {
@@ -52,28 +96,6 @@ export const projects: Project[] = [
     type: {
       en: "Apartment rentals, Montenegro",
       sr: "Izdavanje apartmana, Crna Gora",
-    },
-  },
-  {
-    slug: "mariclaw",
-    name: "Maric Law",
-    url: "https://www.mariclaw.rs/sr-Latn/",
-    image: "/portfolio/mariclaw.png",
-    status: "live",
-    type: {
-      en: "Law firm website",
-      sr: "Sajt advokatske kancelarije",
-    },
-  },
-  {
-    slug: "swastha",
-    name: "Swastha",
-    url: "https://www.swastha.rs/",
-    image: "/portfolio/swastha.png",
-    status: "live",
-    type: {
-      en: "Healthy catering and wellness brand",
-      sr: "Brend zdravog keteringa i wellnessa",
     },
   },
 ];
@@ -160,7 +182,7 @@ export const content: Record<Lang, Dict> = {
       ],
     },
     stats: [
-      { n: "6", label: "Projects shipped" },
+      { n: "8", label: "Projects shipped" },
       { n: "3", label: "Countries" },
       { n: "2", label: "Fullstack platforms" },
       { n: "0", label: "Templates used" },
@@ -193,7 +215,7 @@ export const content: Record<Lang, Dict> = {
       kicker: "Selected work",
       title: "Real sites, live for real businesses.",
       intro:
-        "A look at recent projects across real estate, law, wellness, and hospitality.",
+        "A look at recent projects across real estate, interior design, law, wellness, and hospitality.",
       live: "Live",
       building: "In progress",
       visit: "Visit site",
@@ -252,7 +274,7 @@ export const content: Record<Lang, Dict> = {
       ],
     },
     stats: [
-      { n: "6", label: "Završenih projekata" },
+      { n: "8", label: "Završenih projekata" },
       { n: "3", label: "Države" },
       { n: "2", label: "Fullstack platforme" },
       { n: "0", label: "Korišćenih šablona" },
@@ -285,7 +307,7 @@ export const content: Record<Lang, Dict> = {
       kicker: "Izabrani radovi",
       title: "Pravi sajtovi, uživo za prave biznise.",
       intro:
-        "Pogled na nedavne projekte iz nekretnina, prava, wellnessa i ugostiteljstva.",
+        "Pogled na nedavne projekte iz nekretnina, dizajna enterijera, prava, wellnessa i ugostiteljstva.",
       live: "Uživo",
       building: "U izradi",
       visit: "Poseti sajt",
