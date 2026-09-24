@@ -101,7 +101,7 @@ export const projects: Project[] = [
 ];
 
 export const contact = {
-  email: "99web.contact@gmail.com",
+  email: "cherrystone.contact@gmail.com",
   phoneDisplay: "065 820 0252",
   phoneHref: "+381658200252",
 };
